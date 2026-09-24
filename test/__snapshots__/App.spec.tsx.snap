@@ -1,0 +1,863 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Choicecraft TV App matches initial home snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#0A0E17",
+      "flex": 1,
+      "paddingHorizontal": 64,
+      "paddingVertical": 36,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 255, 255, 0.08)",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 20,
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#0284C7",
+            "borderRadius": 10,
+            "height": 44,
+            "justifyContent": "center",
+            "marginRight": 16,
+            "width": 44,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 20,
+              "fontWeight": "900",
+              "letterSpacing": 1,
+            }
+          }
+        >
+          CC
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#F8FAFC",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 2,
+            }
+          }
+        >
+          CHOICECRAFT
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#94A3B8",
+              "fontSize": 13,
+              "letterSpacing": 0.5,
+            }
+          }
+        >
+          TV Group Consensus Platform
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#1E293B",
+          "borderColor": "#334155",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#10B981",
+            "borderRadius": 4,
+            "height": 8,
+            "marginRight": 8,
+            "width": 8,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#E2E8F0",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Vega OS 1.2 • Fire TV Ready
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "marginBottom": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontSize": 44,
+            "fontWeight": "800",
+            "lineHeight": 52,
+            "marginBottom": 8,
+          }
+        }
+      >
+        Decide Together Without the Endless Scroll
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#94A3B8",
+            "fontSize": 18,
+            "lineHeight": 26,
+            "maxWidth": 900,
+          }
+        }
+      >
+        Transform conflicting individual preferences into transparent, fair, and explainable shared decisions.
+      </Text>
+    </View>
+    <View
+      collapsable={false}
+      destinations={[]}
+      style={
+        [
+          {
+            "minHeight": 1,
+            "minWidth": 1,
+          },
+          {
+            "alignItems": "stretch",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 16,
+          },
+          {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Create Room, Start a new shared session. Displays room code & QR code on this TV for participants to join from phones."
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hasTVPreferredFocus={true}
+        isPressable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onLongPress={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPressIn={[Function]}
+        onPressOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "justifyContent": "space-between",
+              "padding": 24,
+            },
+            {
+              "backgroundColor": "#1E2945",
+              "borderColor": "#38BDF8",
+              "elevation": 8,
+              "shadowColor": "#38BDF8",
+              "shadowOffset": {
+                "height": 6,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 16,
+              "transform": [
+                {
+                  "scale": 1.05,
+                },
+              ],
+            },
+            {
+              "flex": 1,
+              "marginHorizontal": 12,
+              "minHeight": 220,
+            },
+          ]
+        }
+        testID="action-create-room"
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 12,
+                  "height": 48,
+                  "justifyContent": "center",
+                  "width": 48,
+                },
+                {
+                  "backgroundColor": "#0284C7",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#F8FAFC",
+                  "fontSize": 24,
+                }
+              }
+            >
+              ✨
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "backgroundColor": "rgba(56, 189, 248, 0.15)",
+                "borderColor": "rgba(56, 189, 248, 0.3)",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "paddingHorizontal": 10,
+                "paddingVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#38BDF8",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5,
+                }
+              }
+            >
+              Host Session
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#F1F5F9",
+                  "fontSize": 26,
+                  "fontWeight": "700",
+                  "lineHeight": 32,
+                  "marginBottom": 8,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Create Room
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#94A3B8",
+                "fontSize": 15,
+                "lineHeight": 20,
+              }
+            }
+          >
+            Start a new shared session. Displays room code & QR code on this TV for participants to join from phones.
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderTopColor": "rgba(255, 255, 255, 0.08)",
+              "borderTopWidth": 1,
+              "marginTop": 16,
+              "paddingTop": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#64748B",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5,
+                  "textTransform": "uppercase",
+                },
+                {
+                  "color": "#38BDF8",
+                },
+              ]
+            }
+          >
+            Press SELECT
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="Mobile Join Info, Participants use their private phone browsers. No app download required. Keeps preferences private."
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        isPressable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onLongPress={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPressIn={[Function]}
+        onPressOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "justifyContent": "space-between",
+              "padding": 24,
+            },
+            {
+              "backgroundColor": "#121A2D",
+              "borderColor": "#1E293B",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+            {
+              "flex": 1,
+              "marginHorizontal": 12,
+              "minHeight": 220,
+            },
+          ]
+        }
+        testID="action-join-room"
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 12,
+                  "height": 48,
+                  "justifyContent": "center",
+                  "width": 48,
+                },
+                {
+                  "backgroundColor": "#1E293B",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#F8FAFC",
+                  "fontSize": 24,
+                }
+              }
+            >
+              📱
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "backgroundColor": "rgba(56, 189, 248, 0.15)",
+                "borderColor": "rgba(56, 189, 248, 0.3)",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "paddingHorizontal": 10,
+                "paddingVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#38BDF8",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5,
+                }
+              }
+            >
+              No App Needed
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#F1F5F9",
+                  "fontSize": 26,
+                  "fontWeight": "700",
+                  "lineHeight": 32,
+                  "marginBottom": 8,
+                },
+                false,
+              ]
+            }
+          >
+            Mobile Join Info
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#94A3B8",
+                "fontSize": 15,
+                "lineHeight": 20,
+              }
+            }
+          >
+            Participants use their private phone browsers. No app download required. Keeps preferences private.
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderTopColor": "rgba(255, 255, 255, 0.08)",
+              "borderTopWidth": 1,
+              "marginTop": 16,
+              "paddingTop": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#64748B",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5,
+                  "textTransform": "uppercase",
+                },
+                false,
+              ]
+            }
+          >
+            Use Remote to Focus
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="How It Works, Learn about the 4-step consensus pipeline: hard constraints, satisfaction scoring, fairness, and explanations."
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        isPressable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onLongPress={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPressIn={[Function]}
+        onPressOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "justifyContent": "space-between",
+              "padding": 24,
+            },
+            {
+              "backgroundColor": "#121A2D",
+              "borderColor": "#1E293B",
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+            {
+              "flex": 1,
+              "marginHorizontal": 12,
+              "minHeight": 220,
+            },
+          ]
+        }
+        testID="action-how-it-works"
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 12,
+                  "height": 48,
+                  "justifyContent": "center",
+                  "width": 48,
+                },
+                {
+                  "backgroundColor": "#1E293B",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#F8FAFC",
+                  "fontSize": 24,
+                }
+              }
+            >
+              ⚖️
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "backgroundColor": "rgba(56, 189, 248, 0.15)",
+                "borderColor": "rgba(56, 189, 248, 0.3)",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "paddingHorizontal": 10,
+                "paddingVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#38BDF8",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5,
+                }
+              }
+            >
+              Consensus Engine
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#F1F5F9",
+                  "fontSize": 26,
+                  "fontWeight": "700",
+                  "lineHeight": 32,
+                  "marginBottom": 8,
+                },
+                false,
+              ]
+            }
+          >
+            How It Works
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#94A3B8",
+                "fontSize": 15,
+                "lineHeight": 20,
+              }
+            }
+          >
+            Learn about the 4-step consensus pipeline: hard constraints, satisfaction scoring, fairness, and explanations.
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderTopColor": "rgba(255, 255, 255, 0.08)",
+              "borderTopWidth": 1,
+              "marginTop": 16,
+              "paddingTop": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#64748B",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5,
+                  "textTransform": "uppercase",
+                },
+                false,
+              ]
+            }
+          >
+            Use Remote to Focus
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "rgba(15, 23, 42, 0.6)",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "#334155",
+            "borderRadius": 6,
+            "color": "#F8FAFC",
+            "fontSize": 12,
+            "fontWeight": "800",
+            "marginRight": 8,
+            "paddingHorizontal": 8,
+            "paddingVertical": 4,
+          }
+        }
+      >
+        D-PAD
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#94A3B8",
+            "fontSize": 14,
+            "marginRight": 16,
+          }
+        }
+      >
+        Navigate between options
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#475569",
+            "fontSize": 14,
+            "marginRight": 16,
+          }
+        }
+      >
+        •
+      </Text>
+      <Text
+        style={
+          {
+            "backgroundColor": "#334155",
+            "borderRadius": 6,
+            "color": "#F8FAFC",
+            "fontSize": 12,
+            "fontWeight": "800",
+            "marginRight": 8,
+            "paddingHorizontal": 8,
+            "paddingVertical": 4,
+          }
+        }
+      >
+        SELECT
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#94A3B8",
+            "fontSize": 14,
+            "marginRight": 16,
+          }
+        }
+      >
+        Confirm selection
+      </Text>
+    </View>
+  </View>
+</View>
+`;
