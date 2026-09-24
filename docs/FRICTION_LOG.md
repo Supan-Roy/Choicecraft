@@ -36,3 +36,19 @@ This log records real, observed issues, platform quirks, and developer experienc
   ```
 - **Impact on Development**: The build tool attempts a wildcard copy of bundle assets even when asset compilation puts assets in another path or no external asset references require copy. The build continues and exits with code 0 (`vpkg` generated successfully), but the warning is noisy in the logs.
 - **Status / Workaround**: The `.vpkg` is properly archived and validated; harmless CLI output, but noteworthy for build pipeline diagnostics.
+
+---
+
+### Issue 4: Virtual Device Instance Path Mismatch in SDK CLI
+- **Date**: September 24, 2026
+- **Component**: Vega Virtual Device (`virtualdevice` binary) / Vega SDK `0.24.12112`
+- **Observed Behavior**: The standalone `virtualdevice` binary defaults to `--instances-path ~/.kepler/virtual_device/instances`. However, Vega Studio and the Vega SDK install emulator instances inside `$SDK_PATH/vvd/instances` (e.g. `/home/supanroy/vega/sdk/vega-sdk/main/0.24.12112/vvd/instances`). Running commands directly without the flag fails with `object does not exist: ~/.kepler/...`.
+- **Workaround / Resolution**: Explicitly pass `--instances-path /home/supanroy/vega/sdk/vega-sdk/main/0.24.12112/vvd/instances` or invoke via high-level `vega virtual-device start`.
+
+---
+
+### Issue 5: Terminal Process Group Signal on Emulator Subshell Exit
+- **Date**: September 24, 2026
+- **Component**: `vega virtual-device start` / Linux Process Management
+- **Observed Behavior**: `vega virtual-device start` completes its wait loop and returns `Virtual device ready.`, then exits with code 0. If spawned from a non-interactive shell script or automation tool without a detached session group, the child QEMU process (`vega-virtual-device`) can receive SIGHUP upon terminal tear-down.
+- **Workaround / Resolution**: Launch with `setsid vega virtual-device start` so the QEMU emulator runs in an independent session detached from the initiating subshell.

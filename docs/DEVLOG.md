@@ -32,3 +32,18 @@
    - Jest Unit & Snapshot Test Suite (`npm test`): 3 test suites, 11 tests passing.
    - Vega Package Generation (`react-native build-vega` / `npm run build:debug` & `build:release`): Successfully built `.vpkg` packages for `x86_64`, `armv7`, and `aarch64`.
    - Open Source Compliance: Added standard [LICENSE](file:///home/supanroy/Projects/Choicecraft/LICENSE) (MIT) and updated `package.json`.
+   - Community Health Files: Added [CODE_OF_CONDUCT.md](file:///home/supanroy/Projects/Choicecraft/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](file:///home/supanroy/Projects/Choicecraft/CONTRIBUTING.md), [SECURITY.md](file:///home/supanroy/Projects/Choicecraft/SECURITY.md), PR template, and GitHub issue templates.
+
+---
+
+## Milestone 2: Vega Virtual Device Execution & Live Verification
+**Date**: September 24, 2026
+
+### Objectives Completed:
+1. **Virtual Device Startup**:
+   - Initialized and launched the Vega TV Virtual Device (x86_64 target with `tv-remote` skin).
+   - Confirmed virtual device online with device ID `VirtualDevice` (`emulator-5554`) via `vega device list` and `vega exec vda devices`.
+2. **App Deployment & Lifecycle Verification**:
+   - Deployed the built package [build/private/kepler/@amazon-devices/choicecraft/undefined/vega/x86_64/Debug/@amazon-devices/choicecraft_x86_64.vpkg](file:///home/supanroy/Projects/Choicecraft/build/private/kepler/@amazon-devices/choicecraft/undefined/vega/x86_64/Debug/@amazon-devices/choicecraft_x86_64.vpkg) via `vega run-app`.
+   - Verified app lifecycle state with `vlcm list`: `com.amazondeveloper.choicecraft.main` is active, running, and `VISIBLE` on the display.
+   - Remote controller skin active for interactive D-pad navigation.
