@@ -31,3 +31,4 @@
    - Kepler ESLint verification (`npm run lint`): 0 errors.
    - Jest Unit & Snapshot Test Suite (`npm test`): 3 test suites, 11 tests passing.
    - Vega Package Generation (`react-native build-vega` / `npm run build:debug` & `build:release`): Successfully built `.vpkg` packages for `x86_64`, `armv7`, and `aarch64`.
+   - Open Source Compliance: Added standard [LICENSE](file:///home/supanroy/Projects/Choicecraft/LICENSE) (MIT) and updated `package.json`.
