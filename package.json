@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "files": ["dist"],
+  "license": "MIT",
   "scripts": {
     "clean": "rm -rf node_modules buildinfo.json dist build",
     "start": "react-native start",
