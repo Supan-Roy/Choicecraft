@@ -1,0 +1,31 @@
+{
+  "name": "choicecraft-core",
+  "version": "1.0.0",
+  "description": "Domain-agnostic group consensus and decision-making engine implementing Borda count, minimax regret, and fairness scoring.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "consensus",
+    "group-decision",
+    "borda-count",
+    "minimax-regret",
+    "fairness",
+    "social-choice",
+    "voting",
+    "fire-tv",
+    "decision-making"
+  ],
+  "author": "Supan Roy",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.8.3"
+  }
+}

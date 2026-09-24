@@ -65,4 +65,29 @@ describe('Choicecraft TV App', () => {
     fireEvent.press(screen.getByTestId('btn-about-back'));
     expect(screen.getByText('Decide Together Without the Endless Scroll')).toBeTruthy();
   });
+
+  it('runs consensus engine and displays winner, fairness metrics, and decision explanation', () => {
+    const screen = render(<App />);
+    fireEvent.press(screen.getByTestId('action-create-room'));
+
+    const runConsensusBtn = screen.getByTestId('btn-run-consensus');
+    fireEvent.press(runConsensusBtn);
+
+    // Verify consensus reveal elements
+    expect(screen.getByText('🏆 CONSENSUS WINNER')).toBeTruthy();
+    expect(screen.getByText('1080p Stream Ready')).toBeTruthy();
+    expect(screen.getByText('Group Fairness Index')).toBeTruthy();
+    expect(screen.getByText('Compromises & Sacrifices')).toBeTruthy();
+    expect(screen.getByTestId('btn-play-stream')).toBeTruthy();
+
+    // Verify stream playback simulation
+    fireEvent.press(screen.getByTestId('btn-play-stream'));
+    expect(
+      screen.getByText('▶️ Streaming 1080p sample from official scrap-tv-feed...')
+    ).toBeTruthy();
+
+    // Navigate back to room
+    fireEvent.press(screen.getByTestId('btn-result-back-room'));
+    expect(screen.getByText('Connect Your Phones')).toBeTruthy();
+  });
 });
