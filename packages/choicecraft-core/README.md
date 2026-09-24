@@ -1,7 +1,6 @@
 # Choicecraft Core (`choicecraft-core`)
 
 > **Domain-agnostic group consensus and decision-making engine grounded in social choice theory.**
-> Built for the **Amazon Developer Hackathon 2026 (Open Source Mini Challenge & Fire TV Track)**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -189,7 +188,7 @@ Includes unit tests covering hard constraints, Borda math, minimax regret calcul
 
 ---
 
-## 🌟 Why Open Source Matters for Hackathons
+## 🌟 Decoupled Architecture & Ecosystem Usage
 
 `choicecraft-core` was designed from day one to be decoupled from any specific UI framework. While Choicecraft uses it for a **10-foot Fire TV (Vega OS)** experience, `choicecraft-core` can be embedded into:
 - Web & Mobile apps (React, React Native, Vue, Flutter)

@@ -1,7 +1,6 @@
 # Choicecraft 🎬✨
 
-> **TV Group Consensus Platform for Fire TV (Vega OS) & Standalone Social Choice Engine**  
-> Built for the **Amazon Developer Hackathon 2026** (Fire TV Track, Open Source Mini Challenge, AWS Builder).
+> **TV Group Consensus Platform for Fire TV (Vega OS) & Standalone Social Choice Engine**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Vega OS SDK](https://img.shields.io/badge/Vega_OS_SDK-0.24.12112-orange.svg)](https://developer.amazon.com/docs/vega/latest/overview.html)
@@ -32,14 +31,14 @@ Deciding what to watch on the living room TV in a group is notoriously exhaustin
 
 ---
 
-## 🏆 Hackathon Tracks & Challenges
+## 🌟 Core Pillars & Capabilities
 
-| Track / Challenge | Implementation in Choicecraft |
+| Capability | Implementation in Choicecraft |
 |---|---|
-| **Fire TV Track (Primary)** | Native Vega OS 1.2 app built with React Native Kepler 4.0, D-pad remote navigation, overscan-safe 10-foot layout, flat typography architecture, and `.vpkg` deployment. |
-| **Open Source (Mini Challenge)** | [`packages/choicecraft-core`](packages/choicecraft-core/): A decoupled, zero-dependency, pure TypeScript consensus & decision engine with MIT license, 100% test coverage, and standalone docs. |
-| **AWS Builder (Mini Challenge)** | Serverless room coordinator architecture designed for AWS Lambda, DynamoDB real-time session storage, and WebSocket/AppSync client sync. |
-| **Developer Experience / Community** | Real-world Vega SDK observations and Kepler runtime workarounds documented in [`docs/DEVLOG.md`](docs/DEVLOG.md) and [`docs/FRICTION_LOG.md`](docs/FRICTION_LOG.md). |
+| **Fire TV Experience** | Native Vega OS 1.2 app built with React Native Kepler 4.0, D-pad remote navigation, overscan-safe 10-foot layout, flat typography architecture, and `.vpkg` deployment. |
+| **Open Source Consensus Engine** | [`packages/choicecraft-core`](packages/choicecraft-core/): A decoupled, zero-dependency, pure TypeScript consensus & decision engine with MIT license, 100% test coverage, and standalone docs. |
+| **Cloud Sync & Architecture** | Serverless room coordinator architecture designed for AWS Lambda, DynamoDB real-time session storage, and WebSocket/AppSync client sync. |
+| **Developer Experience & Logs** | Real-world Vega SDK observations and Kepler runtime workarounds documented in [`docs/DEVLOG.md`](docs/DEVLOG.md) and [`docs/FRICTION_LOG.md`](docs/FRICTION_LOG.md). |
 
 ---
 
@@ -84,7 +83,7 @@ Choicecraft is custom-crafted for the living room TV:
 ```
 Choicecraft/
 ├── packages/
-│   └── choicecraft-core/        # Open Source Mini Challenge: Standalone consensus engine
+│   └── choicecraft-core/        # Standalone social choice consensus engine
 │       ├── src/
 │       │   ├── algorithms/      # Borda, Minimax Regret, Hard Constraints, Fairness Index
 │       │   ├── types.ts         # Domain-agnostic decision types
